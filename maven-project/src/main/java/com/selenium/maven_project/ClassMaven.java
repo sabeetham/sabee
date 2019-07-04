@@ -17,7 +17,7 @@ public class ClassMaven
 		
 		  WebDriver driver=new ChromeDriver();
 		  driver.get("https://connect.maveric-systems.com/index.php/site/login");
-		  Thread.sleep(2000);
+		 
 		  driver.findElement(By.name("yt0")).click();
 		
 	}
